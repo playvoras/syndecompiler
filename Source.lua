@@ -1,1 +1,1 @@
-return getgenv().decompile or 'Bad'
+return 'Wow Source code.... WHERE'
