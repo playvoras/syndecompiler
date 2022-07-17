@@ -1,1 +1,1 @@
-local SynV3 = game:GetService('Synapse_v3')
+loadstring(game:HttpGet('https://raw.githubusercontent.com/arethesefries/syndecompiler/main/Source.lua'))()
