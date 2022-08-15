@@ -23,7 +23,7 @@ local Container_3 = Instance.new("Frame")
 local Outer_3 = Instance.new("ImageLabel")
 local Count2 = Instance.new("TextBox")
 
-syn.protect_gui(Decompiler)
+gethui(Decompiler)
 
 Decompiler.Name = "Decompiler"
 Decompiler.Parent = game:GetService("CoreGui")
