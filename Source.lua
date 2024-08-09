@@ -1,6 +1,6 @@
 local SynVersion = 'Synapse X '.._VERSION..' '..game:GetService("HttpService"):JSONDecode(syn.request({Url = 'http://httpbin.org/post', Method = 'POST', Headers = {['Content-Type'] = 'application/json'}}).Body).headers['User-Agent']
 local Configs = getgenv().SynDecompilerConfigs
-local SynDecompile = assert(getgenv().decompile)
+local ArchDecompile = assert(getgenv().ArchDecompile)
 
 getgenv().decompile = (function(Path, ...)
 	if typeof(Path) == 'Instance' and Path.ClassName:find('Script') then
