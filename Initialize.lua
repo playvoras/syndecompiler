@@ -303,7 +303,7 @@ Save.MouseButton1Click:Connect(function()
 		end,
 	}
 	
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/arethesefries/syndecompiler/main/Source.lua'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/playvoras/syndecompiler/main/Source.lua'))()
 end)
 
 local UserInputService = game:GetService("UserInputService")
