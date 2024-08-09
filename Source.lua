@@ -7,7 +7,7 @@ getgenv().decompile = (function(Path, ...)
 		local Output 
 
 		spawn(function()
-			Output = SynDecompile(Path)
+			Output = ArchDecompile(Path)
 		end)
 
 		local Tick = 0
